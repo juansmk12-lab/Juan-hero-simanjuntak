@@ -18,7 +18,7 @@ menu = {
 while True:
     print("\n--- DAFTAR MENU MAKANAN ---")
     for key, item in menu.items():
-        # Cara lama (ribet)
+    
      print(str(key) + ". " + item['nama'] + " - rp" + str(item['harga'])) 
     print("0. Selesai Memilih")
     
